@@ -3,10 +3,6 @@ import { render } from 'react-dom';
 import { App } from './App';
 import reportWebVitals from './reportWebVitals';
 
-render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+render(<App />, document.getElementById('root'));
+
 reportWebVitals();
