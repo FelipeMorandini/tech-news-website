@@ -9,5 +9,10 @@ export const StoriesContainer = () => {
     getStoryIds().then(data => setStoryIds(data));
   }, []);
 
-  return storyIds.map(storyId => <Story key={storyId} storyId={storyId} />);
+  return (
+    <>
+    <h1>Latest stories:</h1>
+    {storyIds.map(storyId => <Story key={storyId} storyId={storyId} />)}
+    </>
+  );
 }
