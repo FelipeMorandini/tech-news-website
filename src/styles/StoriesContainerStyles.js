@@ -10,12 +10,16 @@ export const GlobalStyle = createGlobalStyle`
                 box-sizing: inherit;
     }
 
+    .title {
+        text-align: center;
+    }
+
     body {
         margin: 0;
         padding: 0;
         line-height: 1;
         color: #202020;
-        background-color: #fafafe;
+        background-color: #fdf5e6;
         font-family: arial, helvetica, sans-serif;
         font-size: 16px;
     }

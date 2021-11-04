@@ -20,7 +20,7 @@ export const StoryTitle = styled.h1`
     font-size: 18px;
     line-height: 1.8;
     margin: 0;
-    text-decoration: none;
+    text-decoration: underline;
 
     a {
         color: #2e2e2c;
